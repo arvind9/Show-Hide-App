@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 50px;
+}
+button {
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  color: #dd1264;
+  font-weight: bold;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+.nameshow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fddddb;
+  color: #000000;
+  font-weight: 700;
+  font-size: 30px;
+  border-radius: 25px;
+  height: 150px;
+  width: 300px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.names-container {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+}
